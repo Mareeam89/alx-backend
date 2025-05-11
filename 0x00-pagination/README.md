@@ -1,15 +1,42 @@
-## Technologies
-* Shell Scripts written in Bash 5.0.17(1).
-* Python scripts interpreted/compiled using python3 (version 3.8.5).
-* Python scripts use **pycodestyle** (version `2.8.*`).
-* Tested on Ubuntu 20.04 LTS.
+# Project Name
+**0x00. Pagination**
 
-## Projects
-All of the following folders are projects done during the studies:
+## Author's Details
+Name: *Wendy Munyasi.*
 
-| Project name | Description |
-| ------------ | ----------- |
-| [`0x00. Pagination`](https://github.com/wendymunyasi/alx-backend/tree/master/0x00-pagination) | It aims to learn about pagination in **Python language**.|
-| [`0x01. Caching`](https://github.com/wendymunyasi/alx-backend/tree/master/0x01-caching) | It aims to learn about caching systems in **Python language**.|
-| [`0x02. i18n`](https://github.com/wendymunyasi/alx-backend/tree/master/0x02-i18n) | It aims to learn about parametizing flask templates and locale in **Flask**.|
-| [`0x03. Queuing System in JS`](https://github.com/wendymunyasi/alx-backend/tree/master/0x03-queuing_system_in_js) | It aims to learn about the queuing system in **JavaScript language**.|
+Email: *wendymunyasi@gmail.com*
+
+Tel: *+254707240068.*
+
+##  Requirements
+
+### Python Scripts
+*   Allowed editors: `vi`, `vim`, `emacs`.
+*   All your files will be interpreted/compiled on Ubuntu 20.04 LTS using gcc, using python3 (version 3.8.5).
+*   All your files should end with a new line.
+*   The `main.py` files are used to test your functions, but you don’t have to push them to your repo.
+*   The first line of all your files should be exactly `#!/usr/bin/env python3`.
+*   Your code should use the pycodestyle (version `2.8.*`).
+*   All your files must be executable.
+*   The length of your files will be tested using `wc`.
+*   All your modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`).
+*   All your classes should have a documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`).
+*   All your functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)`' and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`).
+*   A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified).
+*   All your functions and coroutines must be type-annotated.
+
+## Project Description
+Learn how to paginate a dataset with simple page and page_size parameters.
+How to paginate a dataset with hypermedia metadata.
+How to paginate in a deletion-resilient manner.
+
+
+* **0. Basic annotations - add** - Write a function named `index_range` that takes two integer arguments `page` and `page_size`. - `0-simple_helper_function.py`.
+* **1. Basic annotations - concat** - Implement a method named `get_page` that takes two integer arguments `page` with default value 1 and `page_size` with default value 10. - `1-simple_pagination.py`.
+* **2. Hypermedia pagination** - Implement a `get_hyper` method that takes the same arguments (and defaults) as `get_page` and returns a dictionary containing the given key-value pairs. - `2-hypermedia_pagination.py`.
+* **3. Deletion-resilient hypermedia pagination** - Implement a `get_hyper_index` method with two integer arguments: `index` with a `None` default value and `page_size` with default value of 10. - `3-hypermedia_del_pagination.py`.
+
+
+## Collaborate
+
+To collaborate, reach me through my email address wendymunyasi@gmail.com.
